@@ -16,7 +16,7 @@ $email_usuario = strtolower($_POST['email']);
 require('class.phpmailer.php');
 
 // Dirección donde debe llegar la consulta
-$email_destino = 'destinatario@gmail.com'; 
+$email_destino = 'stapia.flores@gmail.com'; 
 $name = 'Formulario de Consulta';
 $subject = 'Consulta desde sitio web';
 
