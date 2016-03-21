@@ -126,14 +126,14 @@ font-family: 'Roboto', sans-serif;
   width: 310px;
   padding-left: 10px;
   margin-top: 20px;
+    color: grey;
+  font-family: 'Roboto', sans-serif;
 }
 .proyinfo{
   margin-top: 20px;
   width: 700px;
   margin-bottom:20px;
   text-align: justify;
-  color: grey;
-  font-family: 'Roboto', sans-serif;
 
 }
 button.close{
