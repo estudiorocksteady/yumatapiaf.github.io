@@ -1,0 +1,197 @@
+
+
+.scrollup {
+  float: right;
+  background: #d1cfcf;
+  bottom: 1.5em;
+  cursor: pointer;
+  display: none;
+  padding: .25em .5em;
+  position: fixed;
+  right: 1.5em;
+}
+
+body{
+  color: white;
+font-family: 'Roboto', sans-serif;
+}
+.container{
+  color:grey;
+  font-family: 'Roboto', sans-serif;
+}
+.slide{
+  margin-top: 80px;
+}
+.nav{
+  color:white;
+}
+.modal-content{
+	width: 100%;
+}
+.btn:focus{
+  outline:none;
+}
+.carousel-control.left{
+  background-image: none;
+}
+.carousel-control.right{
+  background-image: none;
+}
+.navbar-default {
+  background-color: #212222;
+  border-radius: 0px;
+  border: 0px;
+  height: 80px;
+}
+.navbar-brand{
+  padding: 8px 15px;
+}
+.navbar-right{
+  padding: 18px;
+}
+.menuhamb{
+  margin: 0px 20px 30px 20px;
+  width: 40px;
+}
+.bm1{
+    background-color: red;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+  }
+/*Sobre mi*/
+.mi{
+  width: 360px;
+  background-color: #232323;
+  margin: 15px; 
+  display: flex;
+  flex-direction:column;  
+}
+.dvcolor{
+  width: auto;
+  height: 10px;
+}
+.dvcolor1{
+  width: 10px;
+  height: auto;
+}
+/*color fuentes*/
+.fontb2{
+    color:#B2B2B1;
+    padding: 9px;   
+}
+/*background colors*/
+.b1{
+  background-color: #F6F6F6;
+  padding-top: 65px;
+  padding-bottom: 65px;
+  color: #212222;
+}
+.b2{
+  background-color: #EDEDED;
+  border: 0px;
+  color: #212222;
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+.color1{
+  background-color: #05A8A8;
+  font-family: 'Roboto', sans-serif;
+  color:white;
+}
+.color2{
+  background-color: #EC6623;
+  color: white;
+}
+.color3{
+  background-color: #FACE60;
+}
+/*modal portafolio*/
+.portald{
+  display: flex;
+  flex-direction:row;
+}
+.portald img{
+  padding-right: 10px;
+  margin-bottom: 10px;
+  margin-top: 25px;
+}
+.sll{
+  overflow: auto;
+  margin-left: 10px;
+}
+.proydata{
+  width: 310px;
+  padding-left: 10px;
+  margin-top: 20px;
+}
+.proyinfo{
+  margin-top: 20px;
+  width: 700px;
+  margin-bottom:20px;
+  text-align: justify;
+}
+button.close{
+  margin-top: -5px;
+}
+/*scroll*/
+.sll::-webkit-scrollbar{
+  height: 8px;
+}
+.sll::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 10px;
+  background-color: #F5F5F5;
+}
+
+.sll::-webkit-scrollbar
+{
+  width: 12px;
+  background-color: rgb(245,245,245,0);
+}
+
+.sll::-webkit-scrollbar-thumb
+{
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: #c1c1c1;
+}
+
+/* .modal-fullscreen */
+.modal-fullscreen .modal-content {
+  background: white;
+  border: 1px;
+  margin-top: 30px;
+}
+.modal-backdrop.modal-backdrop-fullscreen {
+  background: #ffffff;
+}
+.modal-backdrop.modal-backdrop-fullscreen.in {
+  opacity: 1;
+}
+/* .modal-fullscreen size: we use Bootstrap media query breakpoints */
+
+.modal-fullscreen .modal-dialog {
+  margin: 0;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .modal-fullscreen .modal-dialog {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .modal-fullscreen .modal-dialog {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .modal-fullscreen .modal-dialog {
+     width: 1170px;
+  }
+}
