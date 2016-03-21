@@ -12,7 +12,7 @@
 }
 
 body{
-  color: white;
+  color: grey;
 font-family: 'Roboto', sans-serif;
 }
 .container{
@@ -132,6 +132,9 @@ font-family: 'Roboto', sans-serif;
   width: 700px;
   margin-bottom:20px;
   text-align: justify;
+  color: grey;
+  font-family: 'Roboto', sans-serif;
+
 }
 button.close{
   margin-top: -5px;
